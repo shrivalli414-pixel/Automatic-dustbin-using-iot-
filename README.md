@@ -15,3 +15,18 @@ sensor: Ultrasonic HC-SR04
 actuator: servo motor MG90S (micro servo)
 feedback:buzzer
 power: 5v dc adapter 
+
+Connections 
+Servo motor connections
+# Red wire (power)=connected to Vcc on Arduino Uno 
+# Brown or Black wire = Connected to GND on Arduino Uno 
+# Yellow or Orange (Signal)= connected to pin 9 on arduino 
+
+Ultrasonic sensor HC-SR04 connections with Arduino 
+#Vcc of HC-SR04 is connected to 5V pin on Arduino Uno 
+#Trigger pin of HC-SR04 is connected to 6th digital pin on Arduino Uno 
+#Echo pin of HC-SR04 sensor is connected to 5th digital pin of Arduino Uno 
+#GND of ultrasonic sensor HC-SR04 is connected to Arduino 's GND
+#Buzzer pin is connected to 11th digital pin on Arduino Uno 
+
+
